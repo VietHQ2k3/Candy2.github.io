@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(60deg, #83b2e7, #f5bfd7);
+}
+
+.wap{
+    color: #fff;
+}
+
+.rap{
+    margin-top:100px;
+    color: #fff;
+}
+
+.cau{
+    color: #fff;
+    font-size: 35px;
+    opacity: 0;
+    animation: fadeInAnimation 3s ease-in forwards;
+}
+
+.next a{
+    font-size: 75px;
+    color: #fff;
+    background: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.next a:hover{
+    color: #f73b3b;
+}
+
+.hide{
+    display: none;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
